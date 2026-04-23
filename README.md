@@ -19,3 +19,12 @@ A grid-based pathfinding system using the A* algorithm with Manhattan distance h
 - shared_ptr used for safety in a school project context (raw pointers or indexed references would typically be used in production)
 
 ---
+
+---
+### Math Library
+
+A lightweight template based math library written in C++ for development used. The goal was simplicity , readability and easy integration into the school engine code.
+
+### Notes
+- Header only template implementation
+---
