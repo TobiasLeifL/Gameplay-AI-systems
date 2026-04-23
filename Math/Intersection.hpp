@@ -23,13 +23,6 @@ namespace CommonUtilities
 	template<class T>
 	bool IntersectionPlaneRay(const Plane<T>& aPlane, const Ray<T>& aRay, Vector3<T>& outIntersectionPoint)
 	{
-
-		//	𝑡 =
-		//  𝑑 − 𝑜 • 𝑛̂ / 
-		//	𝑑̂ • 𝑛̂
-		//	=
-		//
-		//D
 		T valD = aPlane.GetPoint().Dot(aPlane.GetNormal());
 
 		T valODotN = aRay.GetOrigin().Dot(aPlane.GetNormal());
